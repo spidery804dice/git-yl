@@ -18,4 +18,10 @@ class Bank:
 
 		return res
 
+	def get_client(self, id):
+		for i in range(len(self.clients)):
+			if self.clients[i].id == id:
+				return client[i]
+
+
 
